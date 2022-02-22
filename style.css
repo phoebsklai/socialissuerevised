@@ -1,0 +1,151 @@
+body{
+  background-color: AntiqueWhite;
+}
+.menu{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu li {
+  display:flex;
+  align-items: flex-start;
+}
+
+.menu li a {
+  display: flex;
+  color: white;
+  justify-content: : center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+h1{
+  font-family:"Impact";
+  color:black;
+  font-size :100px;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  font-family:"Impact";
+  color:black;
+  font-size :45px;
+}
+
+p{
+  font-family:"Times New Roman";
+  color:black;
+  font-size :20px;
+  margin-top:-3%;
+  line-height: 2;
+
+
+}
+
+h4{
+font-family:"Times New Roman";
+color:black;
+font-size :20px;
+text-align:center;
+line-height: 1.4;
+margin-top:5%;
+
+}
+
+.pic1{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+}
+
+.first{
+  display:flex;
+   align-items: center；
+}
+
+.pic2{
+  display:flex;
+  object-fit: contain;
+  align-self: flex-start;
+  width: 40%;
+  margin-top: 5%
+}
+
+.sec{
+  flex:1 1 auto;
+  margin-top: 3%
+}
+
+.second{
+  display:flex;
+   align-items: flex-end;
+}
+.pic3{
+  display:flex;
+  object-fit: contain;
+  align-self: flex-end;
+  width: 40%;
+  margin-top: 5%;
+  }
+
+.sec2{
+  flex:1 1 auto;
+  align-self:flex-start
+  margin-top: 10%
+}
+
+
+
+.pic7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic8 img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:70%;
+}
+
+.threeimage{
+  width:100%;
+  display:flex;
+}
+
+.imgsubtlecontainter img{
+ border-radius: 50%;
+  width:50%%;
+  height:200px;
+  object-fit: cover;
+}
+
+
+
+  a:link, a:visited {
+  background-color: #333;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
